@@ -10,7 +10,10 @@ if __name__ == "__main__":
     siga=True
     
     while siga:
-        linha=input()
+        try:
+            linha=input()
+        except:
+            break
         if linha != "":
             programa.append(linha)
         else:
