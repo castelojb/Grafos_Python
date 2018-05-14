@@ -101,7 +101,8 @@ if __name__ == "__main__":
                 else:
                     linha=linha+str(elemento+1)
             
-            print(linha,end="")
+            print(linha)
+    
 
     
 
